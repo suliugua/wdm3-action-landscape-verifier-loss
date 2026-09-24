@@ -1,0 +1,34 @@
+{
+  "definition": "measured policy-cell inventory; the rule family, the operator evidence and the exclusion reason are given per row in arm_inventory.csv",
+  "frozen": "2026-09-20",
+  "population": "the manuscript's own measured arms",
+  "cells_by_family": {
+    "threshold": 30,
+    "sign": 33,
+    "excluded": 16
+  },
+  "threshold_rule": {
+    "cells": 30,
+    "below_0.01": 8
+  },
+  "sign_gate": {
+    "cells": 33,
+    "below_0.01": 1
+  },
+  "anchor_level": {
+    "note": "the cells are not independent, several arms share an anchor; this block redoes the low-gain contrast with the anchor as the unit",
+    "floor_anchors": 11,
+    "floor_anchors_with_a_low_gain_cell": 5,
+    "sign_anchors": 18,
+    "sign_anchors_with_a_low_gain_cell": 1,
+    "fisher_p": 0.0185,
+    "cluster_bootstrap": {
+      "resamples": 20000,
+      "seed": 20260921,
+      "rate_difference_ci95": [
+        0.04,
+        0.464
+      ]
+    }
+  }
+}

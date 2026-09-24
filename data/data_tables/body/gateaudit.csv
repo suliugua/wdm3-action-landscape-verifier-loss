@@ -1,0 +1,37 @@
+# Gate-loss record for every anchor with a harmonized value. Each anchor is read from a single
+# 20-evaluation probe trajectory; the record column identifies which, with NG the null-gate probe
+# records, UP the published unified protocol and FP the frozen prospective run. The two count
+# columns identify the observed positive and accepted samples; the underlying probe trajectories
+# in the data package provide the records needed to recompute the mass loss. _ single is the
+# phase-0 selection statistic, given only where it was frozen or reported; seed10 has no
+# same-generation record and is excluded.
+# Re-emitted from manuscript_p2_optical_engineering.tex; the numbers are the paper's own.
+anchor,record,mu_single,n_pos,n_accept,gate_loss_percent
+seed0,NG,+2.00e-4,5,0,100.0%
+seed1,UP,-8.03e-4,4,4,0.0%
+seed2,UP,-5.53e-4,11,11,0.0%
+seed3,UP,-2.17e-4,10,9,2.7%
+seed4,UP,-2.74e-4,16,16,0.0%
+seed5,NG,+2.17e-4,12,0,100.0%
+seed6,FP,+3.07e-4,6,0,100.0%
+seed7,UP,-4.16e-4,11,11,0.0%
+seed8,NG,+3.67e-4,1,0,100.0%
+seed9,NG,-8.67e-5,4,0,100.0%
+seed11,NG,---,5,1,67.2%
+seed12,NG,---,0,0,0.0%
+seed13,UP,-1.17e-5,11,4,35.6%
+seed14,NG,---,3,3,0.0%
+seed15,NG,---,0,0,0.0%
+seed16,NG,-8.89e-5,11,3,54.1%
+seed17,NG,+1.13e-4,7,0,100.0%
+seed18,NG,+1.53e-4,15,1,83.3%
+seed19,NG,+3.39e-4,6,0,100.0%
+seed20,NG,-2.82e-4,5,5,0.0%
+seed21,NG,-0.75e-4,2,0,100.0%
+seed22,NG,-1.11e-4,9,9,0.0%
+seed23,NG,-0.28e-4,4,1,19.2%
+seed24,NG,+8.67e-5,12,0,100.0%
+seed25,NG,+1.28e-4,7,0,100.0%
+seed26,NG,-3.20e-4,10,9,0.9%
+seed27,NG,-1.09e-4,1,0,100.0%
+seed28,NG,+4.24e-5,12,0,100.0%

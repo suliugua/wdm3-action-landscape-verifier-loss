@@ -1,0 +1,19 @@
+# Proposal/verifier decomposition (fresh ). Rows report protocol-level contrasts with the proposal
+# and nominal scheduler labels held where available; the sign-gated column is the corresponding
+# recorded protocol, not the arm the routing rule dispatches (Table~ ). Because the acceptance
+# rule also governs warm-up, these contrasts do not isolate the execution-stage verifier effect.
+# The upper rows are matched or prospective protocol contrasts; the seed13 gray-zone row is the
+# only negative recovery. The seed6 and seed8 rows additionally change the scheduler, as the
+# prospective and replicated contrasts. The seed5 random-DBS row is an earlier-protocol run and
+# the seed9 random-DBS row is the mean of three repeats under the current protocol; the other rows
+# are fresh.
+# Re-emitted from manuscript_p2_optical_engineering.tex; the numbers are the paper's own.
+proposal_rule,seed,null_gated,sign_gated,recovery
+random DBS,seed5,0.0005,0.1026,+0.102
+random DBS,seed9,0.0185,0.0929,+0.074
+banded patch,seed5,0.0348,0.1267,+0.092
+banded patch,seed9,0.0048,0.1038,+0.099
+"static ranking (matched, prospective)",seed0,0.0122,0.1048,+0.093
+"static ranking (matched, gray-zone)",seed13,0.1559,0.1411,-0.015
+static ranking (prospective),seed6,0.0087,0.0639,+0.055
+static ranking (replicated),seed8,0.0012,0.0631,+0.062
