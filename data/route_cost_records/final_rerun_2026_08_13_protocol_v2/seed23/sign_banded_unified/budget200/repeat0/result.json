@@ -1,0 +1,21 @@
+{
+  "experiment": "sign_banded_unified",
+  "anchor": "seed23",
+  "budget": 200,
+  "online_final_dJ": 0.06282804500392603,
+  "eval_spent": 200,
+  "accepts": 46,
+  "wall_clock_s": 3594.6191821098328,
+  "metadata": {
+    "protocol_version": "v2",
+    "script_hash": "363a2bea3803",
+    "bugfix_flags": [
+      "reject_not_committed",
+      "resume_ec_bi_restore",
+      "sign_threshold_zero"
+    ],
+    "verifier_type": "sign_gate",
+    "scheduler_type": "banded",
+    "rerun_dir": "final_rerun_2026_08_13_protocol_v2"
+  }
+}
