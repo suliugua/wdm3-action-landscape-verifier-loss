@@ -1,0 +1,16 @@
+{
+  "anchor": "seed26",
+  "arm": "floor_k100",
+  "experiment": "floor_k100_fresh",
+  "fresh_abs2": 0.17401488702900295,
+  "baseline_abs2": 0.04470361737072657,
+  "fresh_dJ": 0.12931126965827638,
+  "online_final_dJ": 0.12348445657003489,
+  "drift_abs": 0.005826813088241498,
+  "drift_rel": 0.045060365609584443,
+  "retention": 1.0471866115792217,
+  "n_accepts": 30,
+  "n_flipped": 629,
+  "wall_clock_s": 587.7724366188049,
+  "accept_rule": "is_accept(t) = (\"accept\" in t) or t.endswith(\"_a\")"
+}

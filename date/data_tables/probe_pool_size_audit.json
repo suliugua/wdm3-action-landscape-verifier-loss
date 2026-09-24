@@ -1,0 +1,569 @@
+{
+  "summary": {
+    "cohort": "the anchors with a harmonized gate-loss value, each read from its own declared probe trajectory",
+    "n_anchors": 28,
+    "modal_size_is_25": 28,
+    "n_anchors_with_positive_probe_mass": 26,
+    "anchors_without_positive_probe_mass": [
+      "seed12",
+      "seed15"
+    ],
+    "pooled_positive_actions_total": 200,
+    "pooled_positive_action_share_size_25": 76.0,
+    "pooled_positive_action_share_size_9": 10.0,
+    "pooled_positive_mass_share_size_25": 75.5,
+    "positive_mass_share_modal_size_median": 0.8663057131831197,
+    "d_loss_modal_only_median": 0.0,
+    "d_loss_modal_only_max": 0.3284175123128248,
+    "n_modal_shift_above_003": 2,
+    "d_loss_modal_only_worst": [
+      {
+        "anchor": "seed11",
+        "loss_full": 0.6715824876871752,
+        "loss_modal_only": 1.0,
+        "d_loss_modal": 0.3284175123128248
+      },
+      {
+        "anchor": "seed18",
+        "loss_full": 0.8325294633595679,
+        "loss_modal_only": 1.0,
+        "d_loss_modal": 0.1674705366404321
+      },
+      {
+        "anchor": "seed13",
+        "loss_full": 0.3556875287330611,
+        "loss_modal_only": 0.3829461889289466,
+        "d_loss_modal": 0.02725866019588552
+      }
+    ],
+    "d_loss_leave_one_tier_out_median": 0.0,
+    "d_loss_leave_one_tier_out_max": 0.8075496867745927,
+    "n_loo_shift_above_003": 4,
+    "note": "d_loss_* are absolute shifts in the frozen loss when the pool is restricted to the modal patch size, or when one rank tier is left out; anchors whose restriction leaves no positive mass are excluded from the shift statistics, because the loss is then undefined rather than zero"
+  },
+  "anchors": [
+    {
+      "anchor": "seed0",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.6401835532633663,
+      "loss_full": 1.0,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 1.0,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 3,
+        "17": 1,
+        "23": 1,
+        "24": 1,
+        "25": 14
+      }
+    },
+    {
+      "anchor": "seed1",
+      "arm": "unified_protocol",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.7962170628766794,
+      "loss_full": 0.0,
+      "loss_modal_only": 0.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 0.0,
+      "loo_max": 0.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 1,
+        "24": 2,
+        "25": 17
+      }
+    },
+    {
+      "anchor": "seed11",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.6715824876871752,
+      "loss_full": 0.6715824876871752,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.3284175123128248,
+      "loo_min": 0.34619757763132697,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.3284175123128248,
+      "sizes": {
+        "9": 3,
+        "23": 1,
+        "24": 1,
+        "25": 15
+      }
+    },
+    {
+      "anchor": "seed12",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": null,
+      "loss_full": 0.0,
+      "loss_modal_only": null,
+      "d_loss_modal": null,
+      "loo_min": null,
+      "loo_max": null,
+      "d_loss_loo_max": null,
+      "sizes": {
+        "9": 3,
+        "24": 1,
+        "25": 16
+      }
+    },
+    {
+      "anchor": "seed13",
+      "arm": "unified_protocol",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.7679410083227838,
+      "loss_full": 0.3556875287330611,
+      "loss_modal_only": 0.3829461889289466,
+      "d_loss_modal": 0.02725866019588552,
+      "loo_min": 0.3556875287330611,
+      "loo_max": 0.3556875287330611,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 2,
+        "22": 1,
+        "23": 1,
+        "25": 16
+      }
+    },
+    {
+      "anchor": "seed14",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 1.0,
+      "loss_full": 0.0,
+      "loss_modal_only": 0.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 0.0,
+      "loo_max": 0.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 4,
+        "18": 1,
+        "24": 1,
+        "25": 14
+      }
+    },
+    {
+      "anchor": "seed15",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": null,
+      "loss_full": 0.0,
+      "loss_modal_only": null,
+      "d_loss_modal": null,
+      "loo_min": null,
+      "loo_max": null,
+      "d_loss_loo_max": null,
+      "sizes": {
+        "9": 4,
+        "24": 1,
+        "25": 15
+      }
+    },
+    {
+      "anchor": "seed16",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.47756212705492485,
+      "loss_full": 0.5406072121909761,
+      "loss_modal_only": 0.5416834251694616,
+      "d_loss_modal": 0.0010762129784854801,
+      "loo_min": 0.40691120305540796,
+      "loo_max": 0.6848480582953702,
+      "d_loss_loo_max": 0.14424084610439414,
+      "sizes": {
+        "9": 4,
+        "20": 1,
+        "21": 2,
+        "24": 3,
+        "25": 10
+      }
+    },
+    {
+      "anchor": "seed17",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.9920226762558475,
+      "loss_full": 1.0,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 1.0,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 4,
+        "21": 1,
+        "25": 15
+      }
+    },
+    {
+      "anchor": "seed18",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.24786224694966325,
+      "loss_full": 0.8325294633595679,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.1674705366404321,
+      "loo_min": 0.7775413403755342,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.1674705366404321,
+      "sizes": {
+        "9": 4,
+        "16": 1,
+        "17": 1,
+        "22": 2,
+        "23": 3,
+        "24": 1,
+        "25": 8
+      }
+    },
+    {
+      "anchor": "seed19",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 1.0,
+      "loss_full": 1.0,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 1.0,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 3,
+        "24": 1,
+        "25": 16
+      }
+    },
+    {
+      "anchor": "seed2",
+      "arm": "unified_protocol",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.7619829085952663,
+      "loss_full": 0.0,
+      "loss_modal_only": 0.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 0.0,
+      "loo_max": 0.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 2,
+        "23": 2,
+        "25": 16
+      }
+    },
+    {
+      "anchor": "seed20",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 1.0,
+      "loss_full": 0.0,
+      "loss_modal_only": 0.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 0.0,
+      "loo_max": 0.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "8": 1,
+        "9": 3,
+        "25": 16
+      }
+    },
+    {
+      "anchor": "seed21",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.24128563647485143,
+      "loss_full": 1.0,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 1.0,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 1,
+        "20": 1,
+        "24": 1,
+        "25": 17
+      }
+    },
+    {
+      "anchor": "seed22",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.7477901736606687,
+      "loss_full": 0.0,
+      "loss_modal_only": 0.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 0.0,
+      "loo_max": 0.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 5,
+        "23": 1,
+        "25": 14
+      }
+    },
+    {
+      "anchor": "seed23",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.9764073087415298,
+      "loss_full": 0.1924503132254073,
+      "loss_modal_only": 0.1729376874335098,
+      "d_loss_modal": -0.019512625791897498,
+      "loo_min": 0.08222857016250973,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.8075496867745927,
+      "sizes": {
+        "8": 1,
+        "9": 2,
+        "21": 1,
+        "25": 16
+      }
+    },
+    {
+      "anchor": "seed24",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.9187628324505678,
+      "loss_full": 1.0,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 1.0,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 3,
+        "24": 1,
+        "25": 16
+      }
+    },
+    {
+      "anchor": "seed25",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.7948457497622605,
+      "loss_full": 1.0,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 1.0,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 2,
+        "24": 2,
+        "25": 16
+      }
+    },
+    {
+      "anchor": "seed26",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.9914650471283155,
+      "loss_full": 0.008534952871684598,
+      "loss_modal_only": 0.0,
+      "d_loss_modal": -0.008534952871684598,
+      "loo_min": 0.0,
+      "loo_max": 0.011893460336388051,
+      "d_loss_loo_max": 0.008534952871684598,
+      "sizes": {
+        "9": 2,
+        "18": 1,
+        "22": 1,
+        "24": 1,
+        "25": 15
+      }
+    },
+    {
+      "anchor": "seed27",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 1.0,
+      "loss_full": 1.0,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 1.0,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 1,
+        "25": 19
+      }
+    },
+    {
+      "anchor": "seed28",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.9679885988164263,
+      "loss_full": 1.0,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 1.0,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 4,
+        "24": 2,
+        "25": 14
+      }
+    },
+    {
+      "anchor": "seed3",
+      "arm": "unified_protocol",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.8663057131831197,
+      "loss_full": 0.02710146269795033,
+      "loss_modal_only": 0.0,
+      "d_loss_modal": -0.02710146269795033,
+      "loo_min": 0.02710146269795033,
+      "loo_max": 0.02710146269795033,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 3,
+        "24": 1,
+        "25": 16
+      }
+    },
+    {
+      "anchor": "seed4",
+      "arm": "unified_protocol",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.8276281372519777,
+      "loss_full": 0.0,
+      "loss_modal_only": 0.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 0.0,
+      "loo_max": 0.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 1,
+        "16": 1,
+        "20": 1,
+        "21": 1,
+        "23": 1,
+        "25": 15
+      }
+    },
+    {
+      "anchor": "seed5",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 1.0,
+      "loss_full": 1.0,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 1.0,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 1,
+        "25": 19
+      }
+    },
+    {
+      "anchor": "seed6",
+      "arm": "frozen_prospective",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.4376174655625705,
+      "loss_full": 1.0,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 1.0,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 4,
+        "22": 1,
+        "23": 1,
+        "24": 1,
+        "25": 13
+      }
+    },
+    {
+      "anchor": "seed7",
+      "arm": "unified_protocol",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.9433735530066708,
+      "loss_full": 0.0,
+      "loss_modal_only": 0.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 0.0,
+      "loo_max": 0.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 2,
+        "24": 1,
+        "25": 17
+      }
+    },
+    {
+      "anchor": "seed8",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 1.0,
+      "loss_full": 1.0,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 1.0,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 3,
+        "25": 17
+      }
+    },
+    {
+      "anchor": "seed9",
+      "arm": "null_gate_probe_v2",
+      "n_probe": 20,
+      "modal_size": 25,
+      "modal_share_of_positive_mass": 0.7339805916201702,
+      "loss_full": 1.0,
+      "loss_modal_only": 1.0,
+      "d_loss_modal": 0.0,
+      "loo_min": 1.0,
+      "loo_max": 1.0,
+      "d_loss_loo_max": 0.0,
+      "sizes": {
+        "9": 1,
+        "20": 1,
+        "22": 1,
+        "24": 1,
+        "25": 16
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+anchor,arm,family,generation,verifier_operator,operator_evidence,scheduler,fresh_value,n_repeats,exclude_reason
+seed0,null_gate_static,threshold,current,floor,record protocol=null_gate_static_top_patch,,0.012181,1,
+seed0,positive_null_sign,sign,current,sign,record protocol=sign_gate_static_top_patch,,0.104831,1,
+seed1,null_gate_static,excluded,current,floor,record protocol=null_gate_static_top_patch,,0.004878,1,"nominal floor, realized floor == 0 on this anchor (R3)"
+seed1,portfolio,excluded,earlier,floor,script: th=compute_scaled_threshold,,0.105304,1,"nominal floor, realized floor == 0 on this anchor (R3)"
+seed1,positive_null_sign,sign,current,sign,record protocol=sign_gate_static_top_patch,,0.006818,1,
+seed1,random_dbs,excluded,earlier,floor,record: gate_loss>0 on every cell,,0.060482,1,"nominal floor, realized floor == 0 on this anchor (R3)"
+seed1,sign_banded_unified,sign,current,sign,"script: th=0.0, 'SIGN GATE'",,0.088713,1,
+seed1,sign_static,sign,earlier,sign,script: sign gate,,0.015371,1,
+seed1,unified_protocol,excluded,current,floor,script: th=compute_scaled_threshold,,0.079185,1,"nominal floor, realized floor == 0 on this anchor (R3)"
+seed10,null_banded,threshold,current,floor,script: th=compute_scaled_threshold,,0.025134,1,
+seed10,raw_static_legacy,excluded,earlier,,,,0.077352,1,not a manuscript arm (R7)
+seed10,warmup_then_banded_spatial,excluded,earlier,,,,0.009753,1,not a manuscript arm (R7)
+seed13,null_gate_static,threshold,current,floor,record protocol=null_gate_static_top_patch,,0.155855,1,
+seed13,null_static,threshold,earlier,floor,script: th=compute_scaled_threshold,,0.145117,1,
+seed13,portfolio,threshold,earlier,floor,script: th=compute_scaled_threshold,,0.130436,1,
+seed13,positive_null_sign,sign,current,sign,record protocol=sign_gate_static_top_patch,,0.141129,1,
+seed13,random_dbs,threshold,earlier,floor,record: gate_loss>0 on every cell,,0.052165,1,
+seed13,sign_banded,sign,current,sign,script: sign gate,,0.132665,1,
+seed13,sign_static,sign,earlier,sign,script: sign gate,,0.214099,1,
+seed13,unified_protocol,threshold,current,floor,script: th=compute_scaled_threshold,,0.125927,1,
+seed16,floor_k000,sign,current,sign,script: K=0 reproduces the sign gate,,0.15053,1,
+seed16,floor_k025,threshold,current,floor,"script: accept iff dF > K*T_ref(n), K=0.25",,0.122107,1,
+seed16,floor_k050,threshold,current,floor,"script: accept iff dF > K*T_ref(n), K=0.5",,0.112201,1,
+seed16,floor_k100,threshold,current,floor,"script: accept iff dF > K*T_ref(n), K=1",,0.05888,1,
+seed16,floor_k200,threshold,current,floor,"script: accept iff dF > K*T_ref(n), K=2",,0.003745,1,
+seed16,positive_null_sign,sign,current,sign,record protocol=sign_gate_static_top_patch,,0.15053,1,
+seed17,positive_null_sign,sign,current,sign,record protocol=sign_gate_static_top_patch,,0.128322,1,
+seed18,positive_null_sign,sign,current,sign,record protocol=sign_gate_static_top_patch,,0.095966,1,
+seed19,positive_null_sign,sign,current,sign,record protocol=sign_gate_static_top_patch,,0.09789,1,
+seed2,policy_switch,excluded,earlier,floor,script: if dF > threshold,,0.14802,1,"nominal floor, realized floor == 0 on this anchor (R3)"
+seed2,random_dbs,excluded,earlier,floor,record: gate_loss>0 on every cell,,0.090197,5,"nominal floor, realized floor == 0 on this anchor (R3)"
+seed2,random_same_pool,excluded,earlier,,,,0.06999,1,not a manuscript arm (R7)
+seed2,raw_static,excluded,earlier,floor,record: gate_loss>0 on every cell,,0.016847,1,"nominal floor, realized floor == 0 on this anchor (R3)"
+seed2,sign_banded_unified,sign,current,sign,"script: th=0.0, 'SIGN GATE'",,0.09332,1,
+seed2,sign_static,sign,earlier,sign,script: sign gate,,0.091796,1,
+seed2,static_top_patch,excluded,earlier,floor,record: gate_loss>0 on every cell,,0.089678,1,"nominal floor, realized floor == 0 on this anchor (R3)"
+seed2,unified_protocol,excluded,current,floor,script: th=compute_scaled_threshold,,0.118479,1,"nominal floor, realized floor == 0 on this anchor (R3)"
+seed24,positive_null_sign,sign,current,sign,record protocol=sign_gate_static_top_patch,,0.04818,1,
+seed25,positive_null_sign,sign,current,sign,record protocol=sign_gate_static_top_patch,,0.091859,1,
+seed28,positive_null_sign,sign,current,sign,record protocol=sign_gate_static_top_patch,,0.072215,1,
+seed3,policy_switch,threshold,earlier,floor,script: if dF > threshold,,0.080109,1,
+seed3,random_dbs,threshold,earlier,floor,record: gate_loss>0 on every cell,,0.08586,3,
+seed3,sign_banded_unified,sign,current,sign,"script: th=0.0, 'SIGN GATE'",,0.115596,1,
+seed3,sign_static,sign,earlier,sign,script: sign gate,,0.09517,1,
+seed3,unified_protocol,threshold,current,floor,script: th=compute_scaled_threshold,,0.078948,1,
+seed4,policy_switch,threshold,earlier,floor,script: if dF > threshold,,0.113074,1,
+seed4,random_dbs,threshold,earlier,floor,record: gate_loss>0 on every cell,,0.106295,3,
+seed4,sign_banded_unified,sign,current,sign,"script: th=0.0, 'SIGN GATE'",,0.120385,1,
+seed4,sign_static,sign,earlier,sign,script: sign gate,,0.140351,1,
+seed4,unified_protocol,threshold,current,floor,script: th=compute_scaled_threshold,,0.126468,1,
+seed5,dbs_sign,sign,earlier,sign,record experiment=dbs_sign_gate,,0.102556,3,
+seed5,null_static,threshold,current,floor,script: th=compute_scaled_threshold,,0.008214,1,
+seed5,positive_mu_boundary,threshold,current,floor,script: if dF > threshold,,0.034828,1,
+seed5,random_dbs,threshold,earlier,floor,record: gate_loss>0 on every cell,,0.000499,3,
+seed5,shuffled_pool_sign,sign,current,sign,script: sign gate,,0.063727,1,
+seed5,static_top_patch_sign,sign,current,sign,script: accept if dJ > 0,,0.112904,1,
+seed5,verifier_ablation,sign,current,sign,script: Arm B sign gate; gate_loss=0,,0.126708,1,
+seed6,frozen_prospective,sign,current,sign,the frozen rule dispatches the sign gate,,0.063892,1,
+seed6,null_banded,threshold,current,floor,script: th=compute_scaled_threshold,,0.008749,1,
+seed7,null_gate_static,threshold,current,floor,record protocol=null_gate_static_top_patch,,0.10553,1,
+seed7,policy_switch_legacy,excluded,earlier,,,,0.178732,1,not a manuscript arm (R7)
+seed7,positive_null_sign,sign,current,sign,record protocol=sign_gate_static_top_patch,,0.116231,1,
+seed7,random_dbs,threshold,earlier,floor,record: gate_loss>0 on every cell,,0.097245,3,
+seed7,sign_banded_unified,sign,current,sign,"script: th=0.0, 'SIGN GATE'",,0.106528,1,
+seed7,sign_static,sign,earlier,sign,script: sign gate,,0.142864,1,
+seed7,unified_protocol,threshold,current,floor,script: th=compute_scaled_threshold,,0.071516,1,
+seed7,warmup_then_banded_spatial,excluded,earlier,,,,0.178731,1,not a manuscript arm (R7)
+seed7,warmup_then_diag_banded,excluded,earlier,,,,0.139651,1,not a manuscript arm (R7)
+seed7,warmup_then_spatial,excluded,earlier,,,,0.076574,1,not a manuscript arm (R7)
+seed8,null_banded,threshold,current,floor,script: th=compute_scaled_threshold,,0.001185,1,
+seed8,positive_null_sign,sign,current,sign,record protocol=sign_gate_static_top_patch,,0.063114,1,
+seed8,random_dbs,threshold,earlier,floor,record: gate_loss>0 on every cell,,0.001022,3,
+seed9,dbs_null,threshold,current,floor,record experiment=dbs_null_gate,,0.018475,3,
+seed9,dbs_sign,sign,current,sign,record experiment=dbs_sign_gate,,0.09288,3,
+seed9,null_banded,threshold,current,floor,script: th=compute_scaled_threshold,,0.004835,1,
+seed9,policy_switch,threshold,earlier,floor,script: if dF > threshold,,0.00709,1,
+seed9,positive_null_sign,sign,earlier,sign,record protocol=sign_gate_static_top_patch,,0.036764,1,
+seed9,random_dbs,threshold,earlier,floor,record: gate_loss>0 on every cell,,0.010473,3,
+seed9,sign_banded,sign,current,sign,script: sign gate,,0.103756,1,

@@ -1,0 +1,18 @@
+# Two anchor sets and two different instruments, kept in one table because they are easy to
+# conflate. Panel (a) holds the anchor, initial warm start, nominal scheduler and budget fixed
+# while changing the acceptance rule; because that rule also acts during warm-up, the column is a
+# matched protocol contrast, not an execution-stage verifier effect, and the accepted-pixel counts
+# in the last column expose the induced branching. Panel (b) is not a controlled contrast: it
+# reports the frozen rule's own dispatch on anchors it was run on prospectively, so the
+# online--fresh gap belongs to one arm rather than to a difference between arms; none of the nine
+# fresh gains falls below the 0.01 low-gain level. The two panels answer different questions and
+# their columns must not be compared across the midrule.
+# panel (a): the two panels have different columns and must not be compared
+# Re-emitted from manuscript_p2_optical_engineering.tex; the numbers are the paper's own.
+anchor,sign_banded,null_banded,delta,warmup_accepts_sign_over_null
+seed7,0.106528,0.071516,+0.035012,5 / 5
+seed2,0.093320,0.118479,-0.025159,5 / 5
+seed3,0.115596,0.078948,+0.036648,5 / 2
+seed1,0.088713,0.079185,+0.009528,5 / 3
+seed4,0.120385,0.126468,-0.006083,5 / 5
+mean,0.104908,0.094919,+0.009989,

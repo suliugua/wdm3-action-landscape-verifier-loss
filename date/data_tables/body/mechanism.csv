@@ -1,0 +1,13 @@
+# Threshold geometry and action-level margin across representative anchors. n_ cross=(2 / )^2;
+# ratio is the maximum dJ/T_ null(n) over positive actions (greater than 1 means penetration);
+# rej.\ margin is the mean dJ-T_ null(n) over rejected positive actions (more negative means more
+# strongly suppressed). Values are from the published random seed; the penetration for seed16 is
+# reproducible under an independent random seed.
+# Re-emitted from manuscript_p2_optical_engineering.tex; the numbers are the paper's own.
+anchor,mu_single_1e-4,gamma,n_cross,penetration_ratio,rejection_margin_1e-3
+seed5,+2.2,1.08,,0.24,-9.3
+seed0,+2.0,1.00,,0.59,-7.7
+seed11,+1.6,1.16,,1.16,-7.8
+seed9,-0.87,1.18,508,0.51,-5.3
+seed16,-0.89,1.00,395,1.61,-3.0
+seed14,-6.8,1.00,9,,---

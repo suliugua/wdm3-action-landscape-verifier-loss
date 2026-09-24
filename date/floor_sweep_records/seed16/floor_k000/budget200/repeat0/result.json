@@ -1,0 +1,33 @@
+{
+  "experiment": "floor_sweep_k000",
+  "floor_k": 0.0,
+  "anchor": "seed16",
+  "protocol": "floor_sweep_static_top_patch",
+  "mu_single": -8.887674793669915e-05,
+  "C": 1.0,
+  "threshold_single": 0.0016776779825512667,
+  "baseline_abs2": 0.047330444694146545,
+  "warmup_accepts": 5,
+  "static_accepts": 52,
+  "rho_protocol": 0.38513513513513514,
+  "rho_pos": 0.40540540540540543,
+  "Y_pos": 0.0010953505984523503,
+  "Y_gate": 0.0010921512298271516,
+  "gate_loss": 0.0029208626258288017,
+  "online_final_dJ": 0.1616383820144184,
+  "total_evals": 200,
+  "wall_clock_s": 3709.7765860557556,
+  "fresh_sim_pending": true,
+  "metadata": {
+    "protocol_version": "v2",
+    "script_hash": "e4532a5c2330",
+    "bugfix_flags": [
+      "reject_not_committed",
+      "resume_ec_bi_restore",
+      "sign_threshold_zero"
+    ],
+    "verifier_type": "floor_k0.00",
+    "scheduler_type": "static",
+    "rerun_dir": "final_rerun_2026_08_13_protocol_v2"
+  }
+}
