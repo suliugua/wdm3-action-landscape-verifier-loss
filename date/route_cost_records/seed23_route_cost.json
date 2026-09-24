@@ -1,0 +1,13 @@
+{
+  "anchor": "seed23",
+  "delta": 0.04632482397915601,
+  "threshold": 0.05,
+  "fresh": {
+    "unified_protocol": 0.02290626942171396,
+    "sign_banded_unified": 0.06923109340086997
+  },
+  "beneficial": false,
+  "diagnosis_sha256": "5119d663fc9f541f9fa8ff863700388366ace027714ecbac2cada3d9c4bc4687",
+  "g1b_indices_identical": true,
+  "g1b_dj_identical": true
+}

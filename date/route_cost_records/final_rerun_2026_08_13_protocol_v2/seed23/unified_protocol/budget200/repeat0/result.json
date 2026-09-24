@@ -1,0 +1,21 @@
+{
+  "experiment": "unified_protocol",
+  "anchor": "seed23",
+  "budget": 200,
+  "online_final_dJ": 0.020768786689349797,
+  "eval_spent": 200,
+  "accepts": 5,
+  "wall_clock_s": 3786.5746223926544,
+  "metadata": {
+    "protocol_version": "v2",
+    "script_hash": "ae741218fc2b",
+    "bugfix_flags": [
+      "reject_not_committed",
+      "resume_ec_bi_restore",
+      "sign_threshold_zero"
+    ],
+    "verifier_type": "null_gate",
+    "scheduler_type": "banded",
+    "rerun_dir": "final_rerun_2026_08_13_protocol_v2"
+  }
+}
