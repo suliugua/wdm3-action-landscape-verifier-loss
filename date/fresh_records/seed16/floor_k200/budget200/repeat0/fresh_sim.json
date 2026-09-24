@@ -1,0 +1,15 @@
+{
+  "anchor": "seed16",
+  "experiment": "floor_k200_fresh",
+  "routing_decision": "NULL_GATE",
+  "fresh_abs2": 0.05107497239697862,
+  "baseline_abs2": 0.047330444694146545,
+  "fresh_dJ": 0.0037445277028320748,
+  "online_final_dJ": 0.003712369314061839,
+  "drift_abs": 3.2158388770235635e-05,
+  "drift_rel": 0.00858810277886674,
+  "retention": 1.0086624971951,
+  "n_accepts": 1,
+  "n_flipped": 1,
+  "wall_clock_s": 453.0863106250763
+}

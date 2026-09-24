@@ -1,0 +1,17 @@
+{
+  "anchor": "seed9",
+  "repeat": 3,
+  "experiment": "dbs_sign_fresh",
+  "verifier": "sign_gate",
+  "scheduling": "random_dbs",
+  "fresh_abs2": 0.22634481975944398,
+  "baseline_abs2": 0.09441481688281068,
+  "fresh_dJ": 0.1319300028766333,
+  "online_final_dJ": 0.12042978073234002,
+  "drift_abs": 0.01150022214429329,
+  "drift_rel": 0.08716911918092698,
+  "retention": 1.0954931751462123,
+  "n_accepts": 36,
+  "n_flipped": 557,
+  "wall_clock_s": 386.1647255420685
+}

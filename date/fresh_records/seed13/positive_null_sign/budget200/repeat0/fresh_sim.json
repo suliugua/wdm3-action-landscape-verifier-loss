@@ -1,0 +1,15 @@
+{
+  "anchor": "seed13",
+  "experiment": "positive_null_sign_fresh",
+  "routing_decision": "SIGN_RECOVER",
+  "fresh_abs2": 0.1608947181161233,
+  "baseline_abs2": 0.019765633093127344,
+  "fresh_dJ": 0.14112908502299595,
+  "online_final_dJ": 0.1555166259621309,
+  "drift_abs": -0.01438754093913494,
+  "drift_rel": -0.10194596625345226,
+  "retention": 0.9074855125609632,
+  "n_accepts": 40,
+  "n_flipped": 878,
+  "wall_clock_s": 751.414764881134
+}
