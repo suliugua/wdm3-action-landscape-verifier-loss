@@ -1,0 +1,15 @@
+{
+  "anchor": "seed7",
+  "experiment": "null_gate_static_fresh",
+  "routing_decision": "NULL_GATE",
+  "fresh_abs2": 0.1473709219265513,
+  "baseline_abs2": 0.041840901016636164,
+  "fresh_dJ": 0.10553002090991513,
+  "online_final_dJ": 0.12915003674453215,
+  "drift_abs": -0.023620015834617022,
+  "drift_rel": -0.22382271538427972,
+  "retention": 0.8171118148317753,
+  "n_accepts": 37,
+  "n_flipped": 805,
+  "wall_clock_s": 495.09930634498596
+}

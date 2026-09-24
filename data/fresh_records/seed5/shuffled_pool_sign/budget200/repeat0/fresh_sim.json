@@ -1,0 +1,24 @@
+{
+  "anchor": "seed5",
+  "arm": "shuffled_pool_sign",
+  "repeat": 0,
+  "fresh_dJ": 0.06372725387142679,
+  "online_final_dJ": 0.07221096956682468,
+  "drift_abs": -0.008483715695397895,
+  "retention": 0.8825148624053997,
+  "n_accepts": 63,
+  "wall_clock_s": 246.28159999847412,
+  "metadata": {
+    "protocol_version": "v2",
+    "script_hash": "34e8bea4b5b4",
+    "bugfix_flags": [
+      "reject_not_committed",
+      "resume_ec_bi_restore",
+      "sign_threshold_zero"
+    ],
+    "verifier_type": "n/a",
+    "scheduler_type": "n/a",
+    "rerun_dir": "final_rerun_2026_08_13_protocol_v2",
+    "fresh_sim_version": "v3"
+  }
+}

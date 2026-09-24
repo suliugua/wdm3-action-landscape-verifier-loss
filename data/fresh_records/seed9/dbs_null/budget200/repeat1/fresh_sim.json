@@ -1,0 +1,17 @@
+{
+  "anchor": "seed9",
+  "repeat": 1,
+  "experiment": "dbs_null_fresh",
+  "verifier": "null_gate",
+  "scheduling": "random_dbs",
+  "fresh_abs2": 0.11240519274534018,
+  "baseline_abs2": 0.09441481688281068,
+  "fresh_dJ": 0.017990375862529495,
+  "online_final_dJ": 0.017972110364038424,
+  "drift_abs": 1.8265498491071286e-05,
+  "drift_rel": 0.001015292767124161,
+  "retention": 1.0010163246341743,
+  "n_accepts": 2,
+  "n_flipped": 25,
+  "wall_clock_s": 217.72140884399414
+}

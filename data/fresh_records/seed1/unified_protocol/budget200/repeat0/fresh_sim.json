@@ -1,0 +1,24 @@
+{
+  "anchor": "seed1",
+  "arm": "unified_protocol",
+  "repeat": 0,
+  "fresh_dJ": 0.07918472984411934,
+  "online_final_dJ": 0.06107537795642519,
+  "drift_abs": 0.01810935188769415,
+  "retention": 1.296508224650111,
+  "n_accepts": 26,
+  "wall_clock_s": 358.16957664489746,
+  "metadata": {
+    "protocol_version": "v2",
+    "script_hash": "5306969f25ee",
+    "bugfix_flags": [
+      "reject_not_committed",
+      "resume_ec_bi_restore",
+      "sign_threshold_zero"
+    ],
+    "verifier_type": "n/a",
+    "scheduler_type": "n/a",
+    "rerun_dir": "final_rerun_2026_08_13_protocol_v2",
+    "fresh_sim_version": "v3"
+  }
+}
